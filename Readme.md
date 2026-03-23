@@ -29,7 +29,6 @@ samarfolio/
 ├── README.md
 └── favicon.ico
 
-
 ## 📌 Sections
 - Hero (Introduction)
 - Skills
@@ -40,12 +39,13 @@ samarfolio/
 ## 🚀 Purpose
 This is a minimal portfolio to showcase my current work and skills as a frontend developer, while I continue building more advanced and interactive projects.
 
+
 ## 📬 Contact
 - GitHub: https://github.com/samarjeets10
 - LinkedIn: https://www.linkedin.com/in/samarjeet-sabale-9254b82ba/
 - Twitter: https://x.com/SamarjeetSabale
 - Email: samarsabale1021@gmail.com
-
+- 
 ---
 
 Built and maintained by Samarjeet
