@@ -3,5 +3,9 @@
 
 *  {
     font-family: "Google Sans", sans-serif;
-    color: white;
+    box-sizing: border-box;
+}
+
+i {
+    font-size: 1.4rem;
 }
