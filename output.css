@@ -7,12 +7,16 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-emerald-400: oklch(76.5% 0.177 163.223);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
@@ -184,9 +188,6 @@
   .mr-4 {
     margin-right: calc(var(--spacing) * 4);
   }
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
-  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
@@ -198,6 +199,24 @@
   }
   .table {
     display: table;
+  }
+  .h-4 {
+    height: calc(var(--spacing) * 4);
+  }
+  .h-5 {
+    height: calc(var(--spacing) * 5);
+  }
+  .h-6 {
+    height: calc(var(--spacing) * 6);
+  }
+  .h-7 {
+    height: calc(var(--spacing) * 7);
+  }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+  .h-9 {
+    height: calc(var(--spacing) * 9);
   }
   .h-10 {
     height: calc(var(--spacing) * 10);
@@ -211,6 +230,18 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
+  }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
+  .w-8 {
+    width: calc(var(--spacing) * 8);
+  }
+  .w-9 {
+    width: calc(var(--spacing) * 9);
+  }
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
@@ -219,6 +250,9 @@
   }
   .w-\[32\%\] {
     width: 32%;
+  }
+  .w-\[50\%\] {
+    width: 50%;
   }
   .w-\[68\%\] {
     width: 68%;
@@ -302,6 +336,9 @@
   .bg-\[\#434343\] {
     background-color: #434343;
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -314,9 +351,6 @@
   .p-\[1\.4rem\] {
     padding: 1.4rem;
   }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -326,9 +360,6 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .px-\[0\.1rem\] {
-    padding-inline: 0.1rem;
-  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -337,6 +368,9 @@
   }
   .pr-8 {
     padding-right: calc(var(--spacing) * 8);
+  }
+  .pl-4 {
+    padding-left: calc(var(--spacing) * 4);
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -360,6 +394,12 @@
   .text-\[1\.4rem\] {
     font-size: 1.4rem;
   }
+  .text-\[1\.8rem\] {
+    font-size: 1.8rem;
+  }
+  .text-\[2rem\] {
+    font-size: 2rem;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -370,6 +410,9 @@
   }
   .text-\[\#808080\] {
     color: #808080;
+  }
+  .text-emerald-400 {
+    color: var(--color-emerald-400);
   }
   .text-white {
     color: var(--color-white);
